@@ -27,7 +27,7 @@ A Trello-like UI built using -
 2. Axios(For API communication)
 3. Socket.IO(For real-time updates)
 4. @hello-pangea/dnd(For drag and drop support). 
-CRUD Operations - Create List, Delete List, Create Card, Edit Card, Delete Card, Move Card
+5. CRUD Operations - Create List, Delete List, Create Card, Edit Card, Delete Card, Move Card
 
 To run frontend - 
 1. Install dependencies - npm install
