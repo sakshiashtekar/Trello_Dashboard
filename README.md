@@ -16,7 +16,7 @@ To run the backend -
    b)Board ID - https://trello.com/b/{BOARD_ID}/board-name
    c)Webhook URL - Generated via ngrok.
 4. Run backend locally -
-   a)Intall dependencies - npm install
+   a)Install dependencies - npm install
    b)Start node server - node server.js - Backend starts at localhost:5001
    c)Start ngrok - ngrok http 5001
 
@@ -30,7 +30,7 @@ A Trello-like UI built using -
 CRUD Operations - Create List, Delete List, Create Card, Edit Card, Delete Card, Move Card
 
 To run frontend - 
-1. Intall dependencies - npm install
+1. Install dependencies - npm install
 2. Start development server - npm run dev
 
 
