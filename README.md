@@ -10,11 +10,11 @@ Real-Time Updates - Trello → Webhook → Backend → Socket.IO → Frontend
 To run the backend -
 1. Update the .env file with your own credentials for trello and ngrok
 2. Where to find these?
-   a)Trello Key & Token - https://trello.com/app-key
-      i)TRELLO_KEY = API Key
-      ii)TRELLO_TOKEN = Token (Click “Generate Token” on the same page)
-   b)Board ID - https://trello.com/b/{BOARD_ID}/board-name
-   c)Webhook URL - Generated via ngrok.
+   a)Get Your Trello API Key & Token
+      Step 1 — Get API Key -> Log in to Trello -> Visit- https://trello.com/app-key -> Copy the Developer API Key -> Paste in .env
+      Step 2 — Generate Token -> On the same page, click: "Token" -> Follow prompts → Allow access → Copy the generated token -> Paste in .env
+   b)Board ID - https://trello.com/b/{BOARD_ID}/board-name -> Copy Board id and Paste in .env
+   c)Webhook URL - Generated via ngrok -> Copy the url and paste in .env
 4. Run backend locally -
    a)Install dependencies - npm install
    b)Start node server - node server.js - Backend starts at localhost:5001
