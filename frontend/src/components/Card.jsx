@@ -23,11 +23,11 @@ export default function Card({ card, index, onUpdate, onDelete }) {
 
           <div className="absolute top-2 right-2 flex gap-2">
             <button onClick={onUpdate}>
-              <Edit size={18} className="text-blue-500 hover:text-blue-700" />
+              <Edit size={18} className="text-blue-500" />
             </button>
 
             <button onClick={onDelete}>
-              <Trash2 size={18} className="text-red-500 hover:text-red-700" />
+              <Trash2 size={18} className="text-red-500" />
             </button>
           </div>
         </div>

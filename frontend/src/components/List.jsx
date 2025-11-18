@@ -52,7 +52,7 @@ export default function List({
       </Droppable>
 
       <button
-        className="mt-4 text-gray-700 font-semibold hover:text-gray-900 text-sm"
+        className="mt-4 text-gray-700 font-semibold text-sm"
         onClick={onAddCard}
       >
         + Add Card

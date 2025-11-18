@@ -5,7 +5,7 @@ dotenv.config();
 
 const router = express.Router();
 
-// CREATE LIST (works!)
+// CREATE LIST 
 router.post("/", async (req, res) => {
   try {
     const { name } = req.body;
@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// DELETE LIST (close)
+// DELETE LIST 
 router.delete("/:listId", async (req, res) => {
   try {
     const { listId } = req.params;

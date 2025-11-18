@@ -29,7 +29,7 @@ router.put("/:cardId", async (req, res) => {
   }
 });
 
-// Delete card (close)
+// Delete card 
 router.delete("/:cardId", async (req, res) => {
   try {
     const { cardId } = req.params;
